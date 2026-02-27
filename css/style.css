@@ -821,6 +821,15 @@ body.loaded .hero-reveal-line {
   font-size: 1.1rem;
   max-width: 500px;
   margin: 0 auto 32px;
+}
+
+.contact-email {
+  margin-top: 16px;
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  letter-spacing: 0.02em;
+  color: rgba(255, 255, 255, 0.8);
+  user-select: all;
   opacity: 0.95;
   font-weight: 300;
 }

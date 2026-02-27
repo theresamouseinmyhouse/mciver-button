@@ -132,6 +132,16 @@
     });
   }
 
+  // ---- Obfuscated email (anti-scraper) ----
+  const u = 'carynne';
+  const d = 'mciverbutton.com';
+  const addr = u + '@' + d;
+  const btn = document.getElementById('contact-btn');
+  const emailEl = document.getElementById('contact-email');
+
+  btn.href = 'mai' + 'lto:' + addr;
+  emailEl.textContent = addr;
+
   // Initial call
   updateProgress();
 })();
