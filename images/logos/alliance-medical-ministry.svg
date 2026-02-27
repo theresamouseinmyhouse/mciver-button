@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <style>
+      .amm-name { font-family: Georgia, 'Times New Roman', serif; font-size: 28px; fill: #1a5276; font-weight: bold; }
+      .amm-tagline { font-family: 'Segoe UI', Arial, sans-serif; font-size: 13px; fill: #2980b9; letter-spacing: 1px; }
+      .amm-cross { fill: #c0392b; }
+      .amm-heart { fill: #e74c3c; }
+    </style>
+  </defs>
+  <!-- Cross/medical symbol -->
+  <rect class="amm-cross" x="16" y="25" width="8" height="32" rx="1"/>
+  <rect class="amm-cross" x="4" y="37" width="32" height="8" rx="1"/>
+  <!-- Heart shape -->
+  <path class="amm-heart" d="M20,68 C20,64 16,60 12,60 C8,60 4,64 4,68 C4,76 20,86 20,86 C20,86 36,76 36,68 C36,64 32,60 28,60 C24,60 20,64 20,68 Z" transform="scale(0.5) translate(8, 100)"/>
+  <!-- Organization name -->
+  <text class="amm-name" x="50" y="52">Alliance Medical Ministry</text>
+  <!-- Tagline -->
+  <text class="amm-tagline" x="50" y="78">HEALTHCARE FOR THE UNDERSERVED</text>
+  <!-- Location -->
+  <text style="font-family: 'Segoe UI', Arial, sans-serif; font-size: 11px; fill: #7f8c8d;" x="50" y="98">Raleigh, North Carolina</text>
+</svg>
