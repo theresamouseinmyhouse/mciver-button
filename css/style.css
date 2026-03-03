@@ -533,6 +533,28 @@ body.loaded .hero-reveal-line {
   100% { transform: translateX(-50%); }
 }
 
+.client-figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.client-figure figcaption {
+  font-family: var(--font-body);
+  font-size: 0.7rem;
+  color: var(--text);
+  opacity: 0.45;
+  text-align: center;
+  white-space: nowrap;
+  transition: opacity 0.4s ease;
+}
+
+.client-figure:hover figcaption {
+  opacity: 0.8;
+}
+
 .client-logo {
   height: 48px;
   width: auto;
@@ -543,7 +565,7 @@ body.loaded .hero-reveal-line {
   flex-shrink: 0;
 }
 
-.client-logo:hover {
+.client-figure:hover .client-logo {
   filter: grayscale(0%) opacity(1);
 }
 
@@ -1034,6 +1056,10 @@ body.loaded .hero-reveal-line {
 
   .client-logo {
     height: 36px;
+  }
+
+  .client-figure figcaption {
+    font-size: 0.6rem;
   }
 
   .logo-marquee-track {
